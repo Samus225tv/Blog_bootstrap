@@ -1,9 +1,14 @@
-body {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
+.nav-link {
+    color: black;
 }
 
 .news {
-    background: #FF5480; border-radius: 10px
+    background: #FF5480; border-radius: 10px;
+    color: #fff;
+}
+
+.background-1 {
+    background-image: url(../assets/images/fondo-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
