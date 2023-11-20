@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 .nav-link {
     color: black;
 }
@@ -5,6 +7,10 @@
 .news {
     background: #FF5480; border-radius: 10px;
     color: #fff;
+}
+
+.color-pink {
+    color: #FF5480;
 }
 
 .background-1 {
@@ -35,8 +41,6 @@
     letter-spacing: -0.175px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 .dates {
     color: #9B9B9B;
     font-family: 'Open Sans', sans-serif;
@@ -45,27 +49,6 @@
     font-weight: 400;
     letter-spacing: -0.1px;
 }
-
-.background-2 {
-    background: url(../assets/img/carta.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 7px;
-    width: 639px;
-    height: 359px;
-}
-
-.background-3 {
-    background: url(../assets/img/carta.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 7px;
-    width: 276px;
-    height: 169px;
-}
-
 
 .title-1 {
     color: #000;
@@ -86,7 +69,3 @@
     letter-spacing: -0.15px;
 }
 
-
-.color-pink {
-    color: #FF5480;
-}
