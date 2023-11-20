@@ -8,7 +8,85 @@
 }
 
 .background-1 {
-    background-image: url(../assets/images/fondo-1.jpg);
+    background-image: url(../assets/img/fondo-1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    width: 860px;
+    height: 484px;
+}
+
+.standar {
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+}
+
+.semistandar {
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px; 
+    letter-spacing: -0.175px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.dates {
+    color: #9B9B9B;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+}
+
+.background-2 {
+    background: url(../assets/img/carta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+    width: 639px;
+    height: 359px;
+}
+
+.background-3 {
+    background: url(../assets/img/carta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+    width: 276px;
+    height: 169px;
+}
+
+
+.title-1 {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: -0.225px;
+}
+
+.title-2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px; 
+    letter-spacing: -0.15px;
+}
+
+
+.color-pink {
+    color: #FF5480;
 }
