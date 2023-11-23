@@ -13,15 +13,29 @@
     color: #FF5480;
 }
 
+div {
+    border: 1px solid black;
+}
 .background-1 {
     background-image: url(../assets/img/fondo-1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 860px;
-    height: 484px;
 }
 
+.background-2 {
+    background-image: url(../assets/img/fondo-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-3 {
+    background-image: url(../assets/img/fondo-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .standar {
     color: #FFF;
     font-family: 'Open Sans', sans-serif;
