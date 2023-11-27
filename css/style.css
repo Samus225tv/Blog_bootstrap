@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+body {
+    font-family: 'Opens Sans', sans-serif;
+    font-style: normal;
+}
 .nav-link {
     color: black;
 }
@@ -38,9 +42,7 @@ div {
 }
 .standar {
     color: #FFF;
-    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     letter-spacing: -0.1px;
 }
@@ -49,35 +51,28 @@ div {
     color: #FFF;
     font-family: 'Open Sans', sans-serif;
     font-size: 28px;
-    font-style: normal;
     font-weight: 600;
     line-height: 46px; 
     letter-spacing: -0.175px;
 }
 
-.dates {
+.grey {
     color: #9B9B9B;
-    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     letter-spacing: -0.1px;
 }
 
 .title-1 {
     color: #000;
-    font-family: 'Open Sans', sans-serif;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: 58px;
     letter-spacing: -0.225px;
 }
 
 .title-2 {
-    font-family: 'Open Sans', sans-serif;
     font-size: 24px;
-    font-style: normal;
     font-weight: 600;
     line-height: 58px; 
     letter-spacing: -0.15px;
