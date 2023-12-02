@@ -42,7 +42,8 @@ body{
     width: 276px;
     height: 169px;
 }
-.backgroundThree {
+
+.background-white-2 {
     background: url(../assets/img/white-background.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,16 +51,20 @@ body{
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
-    width: 276px;
-    height: 169px;
+    height: 358px;
 }
+
 .background-3 {
     background-image: url(../assets/img/fondo-3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 7px;
+    width: 638px;
+    height: 359px;
 }
-.standar {
+
+.normal {
     font-family: 'Opens Sans', sans-serif;
     font-style: normal;
     color: #FFF;
@@ -68,17 +73,15 @@ body{
     letter-spacing: -0.1px;
 }
 
-.semistandar {
+.normal-big {
     font-family: 'Opens Sans', sans-serif;
     font-style: normal;
     color: #FFF;
-    font-family: 'Open Sans', sans-serif;
     font-size: 28px;
     font-weight: 600;
     line-height: 46px; 
     letter-spacing: -0.175px;
 }
-
 .grey {
     color: #9B9B9B;
     font-family: 'Opens Sans', sans-serif;
@@ -109,4 +112,22 @@ body{
 
 .white-background {
     background-color: #FFF;
+}
+
+.runing {
+    background: url(../assets/img/runing.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+    width: 638px;
+    height: 359px;
+}
+
+.color-black {
+    color: #000;
+}
+
+.bold {
+    font-weight: 600;
 }
