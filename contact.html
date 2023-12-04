@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +10,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>    
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
   <section class="container-md">
     <!-- Header with navbar-->
@@ -47,48 +44,38 @@
           </div>
         </section>
     </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <section class="contact-us">
+      <h1 class="title">Contact Us</h1>
+      <form class="contact-form row">
+         <div class="form-field col-lg-6">
+            <input id="name" class="input-text js-input" type="text" required>
+            <label class="label" for="name">Name</label>
+         </div>
+         <div class="form-field col-lg-6 ">
+            <input id="email" class="input-text js-input" type="email" required>
+            <label class="label" for="email">E-mail</label>
+         </div>
+         <div class="form-field col-lg-6 ">
+            <input id="company" class="input-text js-input" type="text" required>
+            <label class="label" for="company">Company Name</label>
+         </div>
+          <div class="form-field col-lg-6 ">
+            <input id="phone" class="input-text js-input" type="text" required>
+            <label class="label" for="phone">Contact Number</label>
+         </div>
+         <div class="form-field col-lg-12">
+            <input id="message" class="input-text js-input" type="text" required>
+            <label class="label" for="message">Message</label>
+         </div>
+         <div class="form-field col-lg-12">
+            <input class="submit-btn" type="submit" value="Submit">
+         </div>
+      </form>
+   </section>
+   <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
+    <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+      style="border:0; width: 100%; height: 100%;" allowfullscreen></iframe>
+  </div>
     <!-- Footer (The same in all pages.)-->
     <footer class="row px-4 py-5 white-background">
       <!-- Logo -->
